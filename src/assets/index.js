@@ -26,7 +26,7 @@ import mysql from './tech/mysql.png';
 import shadowfox from "./company/shadowfox.png";
 import prodigy from "./company/prodigy.png";
 
-import carrent from "./carrent.png";
+import roomrental from "./roomrental.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -55,7 +55,7 @@ export {
   docker,  
   shadowfox,
   prodigy,
-  carrent,
+  roomrental,
   jobit,
   tripguide,
 };

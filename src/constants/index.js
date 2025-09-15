@@ -16,7 +16,7 @@ import {
   nodejs,
   mongodb,
   git,
-  carrent,
+  roomrental,
   jobit,
   tripguide,
   prodigy,
@@ -159,7 +159,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image: roomrental,
     source_code_link: "https://github.com/Ayush1Rajput/Room_Rental_website",
   },
   {
