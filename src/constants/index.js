@@ -9,7 +9,7 @@ import {
   reactjs,
   redux,
   tailwind,
-  githubimg, 
+  githubimg,
   python,
   java,
   mysql,
@@ -21,6 +21,7 @@ import {
   tripguide,
   prodigy,
   shadowfox,
+  stock,
 } from "../assets";
 
 export const navLinks = [
@@ -123,7 +124,6 @@ const experiences = [
       " Successfully developed and deployed four full-stack web applications, integrating front-end and back-end technologies for dynamic and interactive user experiences.",
       " Designed and implemented features including user authentication, real-time data processing, and database management using React.js, Node.js, Express.js, and MongoDB.",
       " Optimized website performance, ensuring responsive design, faster load times, and secure API endpoints to enhance user engagement.",
-
     ],
   },
   {
@@ -136,7 +136,7 @@ const experiences = [
       " Contributed to the development of an E-Commerce website, integrating front-end and back-end technologiesfor a dynamic online shopping experience.",
       " Implemented product search, interactive shopping cart, and dynamic content rendering for seamless user interaction.",
       " Focused on optimizing website performance and enhancing user experience through responsive design and efficient database management",
-      ],
+    ],
   },
 ];
 
@@ -163,9 +163,9 @@ const projects = [
     source_code_link: "https://github.com/Ayush1Rajput/Room_Rental_website",
   },
   {
-    name: "E-Commerce Website",
+    name: "Stock Trading Platform",
     description:
-      " Developed a Local Store E-commerce Platform enabling seamless product browsing, shopping cart functionality, and secure checkout with JWT authentication. • Implemented an Admin Panel for store owners to manage products directly from the web page.",
+      " Developed a full-stack stock trading platform inspired by Zerodha with features like user authentication, live stock price tracking via APIs, portfolio management, order placement, and transaction history using React.js, Node.js, Express.js, and MongoDB/MySQL.",
     tags: [
       {
         name: "react",
@@ -184,9 +184,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link:
-      "https://github.com/Ayush1Rajput/Prodigy_Infotech_Project/tree/main/PRODIGY_FSWD_03",
+    image: stock,
+    source_code_link: "https://github.com/Ayush1Rajput/Stock-Trading-Platform",
   },
   {
     name: "Compatative Study Hub",
@@ -220,6 +219,32 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/Ayush1Rajput/JOVAC_Project",
+  },
+  {
+    name: "E-Commerce Website",
+    description:
+      " Developed a Local Store E-commerce Platform enabling seamless product browsing, shopping cart functionality, and secure checkout with JWT authentication. • Implemented an Admin Panel for store owners to manage products directly from the web page.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link:
+      "https://github.com/Ayush1Rajput/Prodigy_Infotech_Project/tree/main/PRODIGY_FSWD_03",
   },
 ];
 

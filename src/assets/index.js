@@ -16,12 +16,11 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import docker from "./tech/docker.png";   
-import githubimg from './tech/githubimg.png';
-import java from './tech/java.png';
-import python from './tech/python.png';
-import mysql from './tech/mysql.png';
-
+import docker from "./tech/docker.png";
+import githubimg from "./tech/githubimg.png";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
+import mysql from "./tech/mysql.png";
 
 import shadowfox from "./company/shadowfox.png";
 import prodigy from "./company/prodigy.png";
@@ -29,6 +28,7 @@ import prodigy from "./company/prodigy.png";
 import roomrental from "./roomrental.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import stock from "./stock.png";
 
 export {
   logo,
@@ -44,7 +44,7 @@ export {
   html,
   githubimg,
   java,
-  python, 
+  python,
   mysql,
   javascript,
   mongodb,
@@ -52,10 +52,11 @@ export {
   reactjs,
   redux,
   tailwind,
-  docker,  
+  docker,
   shadowfox,
   prodigy,
   roomrental,
   jobit,
   tripguide,
+  stock,
 };
