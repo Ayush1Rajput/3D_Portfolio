@@ -163,6 +163,7 @@ const projects = [
     ],
     image: roomrental,
     source_code_link: "https://github.com/Ayush1Rajput/Room_Rental_website",
+    live_demo_link: "https://room-rental-website-k3qu.onrender.com/listings",
   },
   {
     name: "Stock Trading Platform",
@@ -188,6 +189,7 @@ const projects = [
     ],
     image: stock,
     source_code_link: "https://github.com/Ayush1Rajput/Stock-Trading-Platform",
+    live_demo_link: "https://github.com/Ayush1Rajput/Stock-Trading-Platform",
   },
   {
     name: "Compatative Study Hub",
@@ -221,6 +223,7 @@ const projects = [
     ],
     image: studyspace,
     source_code_link: "https://github.com/Ayush1Rajput/JOVAC_Project",
+    live_demo_link: "https://human-eolanda-ayush-projects-7138e1aa.koyeb.app/",
   },
   {
     name: "E-Commerce Website",
@@ -246,6 +249,8 @@ const projects = [
     ],
     image: jobit,
     source_code_link:
+      "https://github.com/Ayush1Rajput/Prodigy_Infotech_Project/tree/main/PRODIGY_FSWD_03",
+    live_demo_link:
       "https://github.com/Ayush1Rajput/Prodigy_Infotech_Project/tree/main/PRODIGY_FSWD_03",
   },
   {
