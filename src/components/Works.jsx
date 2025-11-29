@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_demo_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -27,13 +28,17 @@ const ProjectCard = ({
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
+
           <img
             src={image}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          {/* ⭐ Updated Top Bar Icons */}
+          <div className='absolute inset-0 flex justify-between m-3 card-img_hover'>
+            
+            {/* GitHub - Left */}
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -44,9 +49,20 @@ const ProjectCard = ({
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
+
+            {/* Live Demo - Right */}
+            {live_demo_link && (
+              <div
+                onClick={() => window.open(live_demo_link, "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <p className="text-white text-[10px] font-bold">Live</p>
+              </div>
+            )}
           </div>
         </div>
 
+        {/* Bottom Section */}
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
@@ -62,10 +78,13 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+
       </Tilt>
     </motion.div>
   );
 };
+
+
 
 const Works = () => {
   return (
