@@ -29,6 +29,8 @@ import roomrental from "./roomrental.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import stock from "./stock.png";
+import studyspace from "./studyspace.png";
+import game2048 from "./game2048.png";
 
 export {
   logo,
@@ -59,4 +61,6 @@ export {
   jobit,
   tripguide,
   stock,
+  studyspace,
+  game2048,
 };

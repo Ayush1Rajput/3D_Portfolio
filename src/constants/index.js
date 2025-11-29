@@ -22,6 +22,8 @@ import {
   prodigy,
   shadowfox,
   stock,
+  studyspace,
+  game2048,
 } from "../assets";
 
 export const navLinks = [
@@ -217,7 +219,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: studyspace,
     source_code_link: "https://github.com/Ayush1Rajput/JOVAC_Project",
   },
   {
@@ -245,6 +247,28 @@ const projects = [
     image: jobit,
     source_code_link:
       "https://github.com/Ayush1Rajput/Prodigy_Infotech_Project/tree/main/PRODIGY_FSWD_03",
+  },
+  {
+    name: "2048 Game",
+    description:
+      " I built a fully functional 2048 Puzzle Game using HTML, CSS, and JavaScript, recreating the classic sliding-tile number game. The project focuses on smooth animations, dynamic tile generation, keyboard interaction, and clean UI design",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: game2048,
+    source_code_link: "https://github.com/Ayush1Rajput/2048_Game",
+    live_demo_link: "https://2048-game-self.vercel.app",
   },
 ];
 
